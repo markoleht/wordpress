@@ -1,0 +1,68 @@
+.site .avatar {
+	border-radius: 50%;
+}
+
+.entry-content .wp-smiley,
+.entry-summary .wp-smiley,
+.comment-content .wp-smiley,
+.textwidget .wp-smiley {
+	border: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.entry-content a img,
+.entry-summary a img,
+.comment-content a img,
+.textwidget a img {
+	display: block;
+}
+
+.post-thumbnail {
+	position: relative;
+	display: block;
+}
+
+.post-format-icon {
+	background-color: rgba(0,0,0,0.7);
+	bottom: 0;
+	color: #fff;
+	padding: 0 7px;
+	position: absolute;
+	left: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+p > embed,
+p > iframe,
+p > object,
+p > video {
+	margin-bottom: 0;
+}
+
+/**
+ * 13.1 - Captions
+ */
+
+@import "captions";
+
+/**
+* 13.2 - Galleries
+*/
+
+@import "galleries";
+
+/**
+* 13.3 - Icons
+*/
+
+@import "icons";

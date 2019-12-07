@@ -1,0 +1,174 @@
+@media screen and (min-width: 48em) {
+	.travelore-top-reads-content-wrapper.layout-three .hentry,
+	.travelore-video-content-wrapper.layout-three .hentry {
+		width: 33.33%;
+	}
+
+	.travelore-video-content-wrapper.layout-three .hentry:first-child {
+		width: 100%;
+	}
+
+	.travelore-top-reads-content-wrapper.layout-three .hentry:nth-child(3n+1) {
+		clear: both;
+	}
+
+	.travelore-video-content-wrapper.layout-three .hentry:nth-child(3n+1) {
+		clear: none;
+	}
+
+	.travelore-two-columns-wrapper.layout-two {
+		margin: 0 -15px;
+	}
+
+	.travelore-two-columns-wrapper.layout-two .half-section {
+		float: left;
+		padding: 0 15px;
+		width: 50%;
+	}
+
+	.travelore-trending-wrapper .hentry,
+	.travelore-featured-two-columns-section .hentry.featured {
+		width: 50%;
+	}
+
+	.travelore-trending-wrapper .hentry.featured {
+		width: 100%;
+	}
+
+	.travelore-featured-two-columns-section .hentry {
+		width: 50%;
+	}
+
+	#travelore-featured-two-columns-section .section-content-wrapper .hentry-inner {
+	    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+		display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	    display: -ms-flexbox;  /* TWEENER - IE 10 */
+	    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	}
+	
+	#travelore-featured-two-columns-section .section-content-wrapper .hentry-inner .post-thumbnail {
+		width: 50%;
+	}
+	
+	#travelore-featured-two-columns-section .section-content-wrapper .hentry-inner .entry-container {
+		margin: 0 30px;
+		width: 50%;
+	}
+	
+	#travelore-featured-two-columns-section .section-content-wrapper .featured .hentry-inner {
+		display: block;
+	}
+	
+	#travelore-featured-two-columns-section .section-content-wrapper .featured .hentry-inner .entry-container,
+	#travelore-featured-two-columns-section .section-content-wrapper .featured .hentry-inner .post-thumbnail {
+		width: 100%;
+	}
+
+	.travelore-trending-section .featured .hentry-inner .post-thumbnail {
+		float: left;
+		margin-right: 50px;
+		width: 47%;
+	}
+	
+	.travelore-trending-section .featured .hentry-inner .entry-container {
+		float: right;
+		width: 47%;
+	}
+	
+	.travelore-trending-section .hentry-inner {
+	    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+		display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	    display: -ms-flexbox;  /* TWEENER - IE 10 */
+	    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	}
+
+	.travelore-trending-section .hentry-inner .entry-container {
+		-webkit-align-items: center;
+   		-ms-flex-align: center;
+   		align-items: center;
+	}
+
+	.site-content #botw-section,
+	.site-content #most-viewed-section {
+		padding: 98px 30px;
+	}
+
+	#botw-section,
+	#most-viewed-section {
+		margin-bottom: 0;
+		padding: 98px 0;
+	}
+
+	#botw-section .hentry,
+	#most-viewed-section .hentry {
+		clear: right;
+		float: right;
+		width: 30%;
+	}
+
+	#botw-section .botwd-wrapper:before,
+	#most-viewed-section .most-viewed-wrapper:before {
+		content: "";
+		display: table;
+	}
+
+	#botw-section .hentry:first-child,
+	#most-viewed-section .hentry:first-child {
+		width: 70%;
+		float: left;
+	}
+
+	#botw-section .wrapper:before,
+	#botw-section .wrapper .hentry:before,
+	#most-viewed-section .wrapper:before,
+	#most-viewed-section .wrapper .hentry:before {
+		content: "";
+		display: table;
+	}
+
+	.botw-wrapper .hentry,
+	.most-viewed-wrapper .hentry {
+		padding: 40px 0;
+	}
+
+	.botw-wrapper .format-aside,
+	.most-viewed-wrapper .format-aside {
+		padding-top: 15px;
+	}
+
+	.botw-wrapper .hentry:nth-child(2),
+	.most-viewed-wrapper .hentry:nth-child(2) {
+		margin-top: -28px;
+		padding-top: 0;
+	}
+
+	.botw-wrapper .hentry, 
+	.most-viewed-wrapper .hentry {
+		margin-bottom: 0;
+	}
+
+	#botw-section .section-title, #most-viewed-section .section-title,
+	#most-viewed-section .section-title, #most-viewed-section .section-title {
+		padding: 0;
+	}
+
+	#botw-section .hentry:first-child, 
+	#most-viewed-section .hentry:first-child {
+		border-bottom: none;
+	}
+	#travelore-trending-section .section-content-wrapper article:first-child .post-thumbnail,
+	#travelore-featured-two-columns-section .section-content-wrapper .post-thumbnail {
+		margin-bottom: 0;
+	}
+
+	#most-viewed-section .hentry:first-child,
+	#botw-section .hentry:first-child {
+		padding: 35px 35px 35px 0;
+	}
+}

@@ -1,0 +1,73 @@
+#page {
+	-webkit-box-shadow: 0 2px 3px 1px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 2px 3px 1px rgba(0,0,0,0.05);
+	box-shadow:	0 2px 3px 1px rgba(0,0,0,0.05);
+	margin: 0 auto;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.boxed-layout #page {
+	max-width: 1560px;
+}
+
+.wrapper,
+#promotion-section .wrapper {
+	margin: 0 auto;
+	max-width: 1560px;
+	width: 100%;
+}
+
+#content .wrapper{
+	max-width: 1560px;
+}
+
+.page-template-no-sidebar #content .wrapper{
+	max-width: 1040px;
+}
+
+#promotion-section .wrapper,
+#footer-instagram .wrapper,
+#footer-newsletter .wrapper {
+	max-width: 100%;
+}
+
+.recent-blog-section .wrapper {
+	max-width: 1560px;
+}
+
+.site-content {
+	overflow: hidden;
+	position: relative;
+	word-wrap: break-word;
+	z-index: 2;
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/**
+ * 12.1 - Header
+ */
+
+@import "header";
+
+/**
+* 12.2 - Posts and pages
+*/
+
+@import "posts-and-pages";
+
+/**
+* 12.3 - Comments
+*/
+
+@import "comments";
+
+/**
+* 12.4 - Footer
+*/
+
+@import "footer";

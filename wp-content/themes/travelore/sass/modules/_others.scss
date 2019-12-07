@@ -1,0 +1,165 @@
+.woocommerce nav.woocommerce-pagination {
+	text-align: left;
+}
+
+.woocommerce nav.woocommerce-pagination ul {
+	border: none;
+	margin: 0;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {
+	padding: 7px 10px;
+}
+
+.woocommerce .woocommerce-pagination ul.page-numbers li,
+.woocommerce-page .woocommerce-pagination ul.page-numbers li {
+	border: none;
+	margin-right: 7px;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce p.stars a,
+.woocommerce nav.woocommerce-pagination ul li a,
+.cart_item a {
+	border: none;
+}
+
+.woocommerce-cart-form #coupon_code {
+	padding: 11px 6px;
+	width: auto !important;
+}
+
+.woocommerce .quantity .qty {
+	margin: 0;
+	width: 4.5em;
+}
+
+.woocommerce div.product form.cart div.quantity {
+	margin: 0 17px 0 0;
+}
+
+#add_payment_method table.cart img,
+.woocommerce-cart table.cart img,
+.woocommerce-checkout table.cart img,
+.woocommerce ul.cart_list li img,
+.woocommerce ul.product_list_widget li img {
+	width: 80px;
+}
+
+#footer-instagram .widget {
+	margin: 0;
+	padding: 0;
+}
+
+#footer-instagram .section-title {
+	margin: 0 30px 35px;
+	display: none;
+}
+
+.catch-instagram-feed-gallery-widget .instagram-button {
+	margin: 0;
+}
+
+.catch-instagram-feed-gallery-widget-wrapper .button {
+	-webkit-border-radius: 23px;
+	border-radius: 23px;
+	border: none;
+	display: inline-block;
+	font-weight: 600;
+	line-height: 1.615384615384615;
+	letter-spacing: 0.1em;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .button {
+	margin: 35px auto 42px;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item {
+	margin: 0;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item {
+	width: 16.6666666667%;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item:nth-child(3n+1),
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item:nth-child(3n+1) {
+	clear: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item:nth-child(6n+1),
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item:nth-child(6n+1) {
+	clear: both;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .instagram-button,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .instagram-button {
+	display: none;
+}
+
+.catch-instagram-feed-gallery-widget-wrapper .loader {
+	margin: 28px auto;
+}
+
+.widget.essential-widgets {
+	clear: none;
+}
+
+#footer-newsletter .wrapper {
+	text-align: center;
+}
+
+#footer-newsletter .widget-inner {
+	max-width: 570px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+#footer-newsletter .widget.ew-newsletter,
+#footer-newsletter .ewnewsletter .ew-newsletter-wrap .ew-newsletter-subbox,
+#footer-newsletter .ewnewsletter .ew-newsletter-wrap #subbutton {
+	margin: 0;
+}
+
+.ew-newsletter-wrap form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.ewfeaturedpostpageimage .left .featured-image,
+.ewfeaturedpostpageimage .right .featured-image {
+	width: 23%;
+}
+
+.ewfeaturedpostpageimage .left .entry-container,
+.ewfeaturedpostpageimage .right .entry-container {
+    width: 77%;
+}
+
+.sidebar .ew-newsletter .section-heading-wrapper {
+	padding: 0;
+}
+
+#secondary .ew-advertisement-image {
+	padding: 0;
+	background-color: transparent;
+}
+
+.sidebar .ew-social-profile .social-navigation a:before {
+	line-height: 1.2;
+}
+
+.woocommerce-product-gallery__image {
+	padding: 7px;
+}

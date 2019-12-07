@@ -1,0 +1,112 @@
+@media screen and (min-width: 75em) {
+	.wp-custom-logo:not(.header-center-layout) .custom-logo-link,
+	.wp-custom-logo:not(.header-center-layout) .site-identity {
+		display: inline-block;
+	}
+
+	.wp-custom-logo:not(.header-center-layout) .custom-logo-link {
+		margin-right: 21px;
+	}
+
+	.header-center-layout .wp-custom-logo .custom-logo-link {
+		margin: 0 0 7px;
+	}
+
+	.site-branding {
+		align-items: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin-right: auto;
+		width: auto;
+	}
+	
+	.social-header-right-enabled .site-branding {
+		-webkit-box-pack: center;
+        -ms-flex-pack: center;
+		justify-content: center;
+		text-align: left;
+	}
+
+	.social-header-right-enabled .social-navigation + .site-branding {
+		text-align: center;
+	}
+
+	.site-secondary-menu {
+		margin: 14px 0px 14px 0;
+	}
+
+	.header-center-layout .site-branding {
+		display: block;
+		margin: 14px auto;
+		text-align: center;
+	}
+
+	.portfolio-content-wrapper .entry-summary {
+		display: block;
+	}
+
+	.site-footer-menu .wrapper,
+	.site-info.two .wrapper {
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.site-footer .social-navigation,
+	.site-info.two .powered {
+		margin: 0;
+		-webkit-order: 2;
+		-ms-flex-order: 2;
+		order: 2;
+	}
+
+	.site-info,
+	.site-footer .footer-navigation,
+	.site-info.two .copyright {
+		-webkit-order: 1;
+		-ms-flex-order: 1;
+		order: 1;
+	}
+
+	.site-info.two .powered,
+	.site-info .copyright {
+	    margin-top: 14px;
+	    margin-bottom: 14px;
+	}
+
+	#social-footer-navigation {
+	    margin: 0 0 28px;
+	}
+
+	#site-generator .social-navigation a {
+		font-size: 18px;
+	}
+
+	caption,
+	th,
+	td {
+		padding: 14px 28px;
+	}
+
+	#hero-section .entry-container {
+		padding: 63px 50px;
+	}
+
+	.home #header-navigation-area + .section {
+	    margin-top: 63px;
+	}
+
+	.home #header-navigation-area + #news-ticker, .home #header-navigation-area + .header-media {
+	    margin-top: 0;
+	}
+}

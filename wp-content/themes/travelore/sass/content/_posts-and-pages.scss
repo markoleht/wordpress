@@ -1,0 +1,299 @@
+.site-main .hentry,
+.featured-content-wrapper .hentry,
+.portfolio-content-wrapper .hentry,
+.service-content-wrapper .hentry,
+.team-content-wrapper .hentry,
+.header-highlights-content-wrapper .hentry,
+.testimonial-content-wrapper .hentry {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.entry-title a {
+	text-decoration: none;
+}
+
+.cover-link {
+	display: block;
+	height: 100%;
+}
+
+.post-thumbnail img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.singular-header-image img {
+	width: 100%;
+}
+
+a.post-thumbnail:hover,
+a.post-thumbnail:focus {
+	opacity: 0.85;
+}
+
+.post-navigation .nav-title,
+.entry-title,
+.comments-title {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.author-description > :last-child,
+.entry-content > :last-child,
+.entry-summary > :last-child,
+.page-content > :last-child,
+.comment-content > :last-child,
+.textwidget > :last-child {
+	margin-bottom: 0;
+}
+
+.more-link {
+	clear: both;
+	display: block;
+	margin-top: 21px;
+	word-wrap: break-word;
+}
+
+.more-button {
+	border-bottom: 1px solid;
+	font-weight: 600;
+	letter-spacing: 1.25px;
+	line-height: 1.615;
+	text-transform: uppercase;
+}
+
+.view-more {
+	clear: both;
+	margin: 0 0 35px;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.author-info {
+	clear: both;
+	text-align: center;
+}
+
+.author-avatar .avatar {
+	height: 100px;
+	width: 100px;
+}
+
+.author-description .author-title {
+	clear: none;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+	margin: 0 0 14px;
+	text-transform: capitalize;
+}
+
+.author-description .author-heading {
+	clear: both;
+	display: block;
+	font-size: 12px;
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 1.25px;
+	line-height: 1.5;
+	margin-bottom: 7px;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.author-description {
+	overflow: hidden;
+}
+
+.author-link {
+	clear: both;
+	display: block;
+	margin-top: 21px;
+	white-space: nowrap;
+	width: max-content;
+}
+
+.entry-footer:empty {
+	margin: 0;
+}
+
+.sticky-post {
+	display: inline-block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    margin: 0 0 14px;
+    padding: 7px 14px 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.excerpt-image-right .has-post-thumbnail .sticky-post {
+	left: auto;
+	right: 0;
+}
+
+.entry-meta {
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.75;
+	text-transform: capitalize;
+}
+
+.entry-meta .sep {
+	display: inline;
+	margin: 0 2px;
+}
+
+.entry-header .entry-meta > span {
+	clear: none;
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.entry-header .entry-meta > span a {
+	font-weight: bold;
+}
+
+.singular-content-wrap .entry-footer .entry-meta > span {
+	clear: both;
+	display: block;
+	margin-top: 28px;
+}
+
+.singular-content-wrap .entry-footer .entry-meta span span {
+	display: block;
+	font-weight: 700;
+	letter-spacing: 1.25px;
+	margin-bottom: 14px;
+	text-transform: uppercase;
+}
+
+.singular-content-wrap .entry-footer .cat-links a,
+.singular-content-wrap .entry-footer .tags-links a {
+	border: 1px solid;
+	display: inline-block;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	margin: 0 3px 7px 0;
+	padding: 3px 7px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.hentry-inner .entry-header > .entry-meta:first-child,
+.post-wrapper .entry-header > .entry-meta:first-child {
+	display: block;
+	clear: both;
+}
+
+#portfolio-content-section .hentry-inner .entry-header > .entry-meta:first-child,
+#portfolio-content-section .post-wrapper .entry-header > .entry-meta:first-child {
+	margin: 0;
+}
+
+/**
+ * IE8 and earlier will drop any block with CSS3 selectors.
+ * Do not combine these styles with the next block.
+ */
+
+.updated:not(.published) {
+	display: none;
+}
+
+.taxonomy-description p {
+	margin: 0.5384615385em 0 1.6153846154em;
+}
+
+.taxonomy-description > :last-child {
+	margin-bottom: 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 28px;
+}
+
+.page-links a,
+.page-links > span {
+	border: 1px solid;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	display: inline-block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	height: 26px;
+	line-height: 1.846153846153846;
+	margin-right: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 26px;
+}
+
+.page-links a:hover,
+.page-links a:focus {
+	border-color: transparent;
+}
+
+.page-links > .page-links-title {
+	border: none;
+	height: auto;
+	margin: 0;
+	padding-right: 7px;
+	width: auto;
+}
+
+.entry-attachment {
+	margin-bottom: 28px;
+}
+
+.entry-caption {
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 7px;
+}
+
+.entry-caption > :last-child {
+	margin-bottom: 0;
+}
+
+.content-bottom-widgets {
+	clear: both;
+}
+
+#travelore-video-section .lightbox-enabled iframe {
+   pointer-events: none;
+}
+
+#travelore-video-section a.mixed {
+	color: transparent;
+    display: block;
+}
+
+body .flashy-container .flashy-content {
+	background: transparent;
+}
+
+.admin-bar .flashy-overlay .flashy-close {
+	right: 7px;
+	top: 46px;
+}
+
+#portfolio-content-section .has-post-thumbnail .cat-links {
+	position: absolute;
+}
+
+.has-post-thumbnail .image-meta-wrapper{
+	position: relative;
+}
+
+.has-post-thumbnail .image-meta-wrapper .entry-meta {
+	position: absolute;
+    z-index: 1;
+    left: 21px;
+}

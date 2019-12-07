@@ -1,0 +1,271 @@
+.header-top-left,
+.site-navigation .top-menu a {
+	font-size: 12px;
+	font-size: 0.75rem;
+	font-weight: 400;
+	line-height: 1.5;
+	text-transform: unset;
+}
+
+.header-top-bar > .header-top-right.top-without-menu {
+	display: none;
+}
+
+.site-branding {
+	/* Avoid overflowing wide custom logo in small screens in Firefox and IEs */
+	max-width: 100%;
+	min-width: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.header-right .site-secondary-menu{
+	text-align: right;
+}
+
+.custom-logo {
+	display: block;
+	max-width: 180px;
+}
+
+.site-description {
+	font-size: 11px;
+	font-size: 0.6875rem;
+	letter-spacing: 0.2em;
+	line-height: 1.909;
+	margin-top: 7px;
+	text-transform: uppercase;
+}
+
+.site-title a {
+	text-decoration: none;
+}
+
+.menu-toggle {
+	background-color: transparent;
+	border: none;
+	display: block;
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1;
+	margin: 0 auto;
+}
+
+.menu-search-toggle,
+.menu-search-top-toggle .search-label {
+	display: none;
+}
+
+#menu-toggle-secondary {
+	margin: 0 auto -14px;
+}
+
+#menu-toggle-footer {
+	margin: -7px auto 0;
+}
+
+.header-right-disabled .site-secondary-menu {
+	display: block;
+	margin: 0;
+}
+
+.header-right-disabled .site-secondary-menu .social-navigation {
+	display: block;
+}
+
+.header-right-disabled .site-secondary-menu .social-navigation ul {
+	padding: 0;
+}
+
+.no-js .menu-toggle {
+	display: none;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+	background-color: transparent;
+}
+
+.menu-toggle.toggled-on,
+.menu-toggle.toggled-on:hover,
+.menu-toggle.toggled-on:focus {
+	background-color: transparent;
+}
+
+.menu-toggle:focus {
+	outline: 0;
+}
+
+.menu-toggle.toggled-on:focus {
+	outline: thin dotted;
+}
+
+#search-toggle.menu-toggle .icon {
+	margin-right: 0;
+}
+
+.toggled-on.menu-toggle .icon-bars,
+.toggled-on.menu-toggle .icon-search,
+.toggled-on.menu-toggle .icon-share,
+.toggled-on.menu-toggle .icon-list,
+.menu-toggle .icon-close {
+	display: none;
+}
+
+.toggled-on.menu-toggle .icon-close {
+	display: inline-block;
+}
+
+.menu-label-prefix {
+	display: none;
+}
+
+.search-container {
+	display: block;
+	padding: 30px 0;
+    padding-bottom: 0;
+}
+
+#header-content {
+	clear: both;
+}
+
+.home .header-media.section {
+	padding-bottom: 40px;
+}
+
+.header-media.section {
+	clear: both;
+	padding: 0;
+}
+
+.header-media .wrapper {
+	overflow: hidden;
+}
+
+.fluid-layout .header-media .wrapper {
+	max-width: 100%;
+	width: 100%;
+}
+
+.header-media .post-thumbnail img {
+	display: none;
+}
+
+.home.no-header-media-text .header-media .post-thumbnail img {
+	display: block;
+}
+
+.has-header-video .wp-custom-header img {
+	display: none;
+}
+
+.custom-header-content {
+	background-color: rgba( 0, 0, 0, 0.4);
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+.custom-header-content .site-header-text a {
+	text-decoration: underline;
+}
+
+.custom-header-content .site-header-text a:hover,
+.custom-header-content .site-header-text a:focus {
+	text-decoration: none;
+}
+
+.no-header-media-text .wp-custom-header img {
+	display: block;
+}
+
+.wp-custom-header img,
+.wp-custom-header video,
+.wp-custom-header iframe {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+/* For browsers that support 'object-fit' */
+@supports ( object-fit: cover ) {
+	.wp-custom-header img,
+	.wp-custom-header video,
+	.wp-custom-header iframe {
+		height: 100%;
+		left: 0;
+		-o-object-fit: cover;
+		object-fit: cover;
+		top: 0;
+		-ms-transform: none;
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+		width: 100%;
+	}
+}
+
+.wp-custom-header .wp-custom-header-video-button { /* Specificity prevents .color-dark button overrides */
+	border-radius: 50%;
+	bottom: 105px;
+	font-size: 18px;
+	font-size: 1.125rem;
+	overflow: hidden;
+	padding: 10px 16px;
+	position: absolute;
+	left: 48%;
+	-webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+	-moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+	-o-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+	z-index: 100;
+}
+
+.custom-header-content .section-title,
+.custom-header-content .site-header-text {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1040px;
+	position: relative;
+}
+
+.sidebar-header-right {
+	margin: 14px 0 0;
+	max-width: 100%;
+	width: 100%;
+}
+
+.header-media .wp-custom-header .wp-custom-header-video-button{
+	border-radius: 50%;
+	bottom: 105px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    overflow: hidden;
+    padding: 10px 16px;
+    position: absolute;
+    left: 49%;
+    -webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+    z-index: 100;
+}
+
+.home .header-media.section{
+	padding: 0
+}
+
+.header-media + .section{
+	padding-top: 30px;
+}
+
+.has-header-video.no-header-media-text .header-media {
+    min-height: 280px;
+}
+
+.header-media {
+	background-color: rgba(0, 0, 0, 0.4);
+}

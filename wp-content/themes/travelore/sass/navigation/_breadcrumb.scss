@@ -1,0 +1,40 @@
+.breadcrumb-area {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+
+.entry-breadcrumbs,
+.woocommerce .woocommerce-breadcrumb {
+	margin: 0;
+	padding: 24px 30px;
+}
+
+.entry-breadcrumbs a,
+.woocommerce .woocommerce-breadcrumb a {
+	margin-right: 20px;
+	position: relative;
+	text-decoration: none;
+}
+
+.entry-breadcrumbs a:after,
+.woocommerce .woocommerce-breadcrumb a:after {
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-left: 4px solid;
+	content: '';
+	display: block;
+	margin-top: -3.5px;
+	position: absolute;
+	right: -12px;
+	top: 50%;
+}
+
+.catch-breadcrumb .sep {
+    padding: 10px;
+}
+
+.catch-breadcrumb.center .entry-breadcrumbs, .catch-breadcrumb.center .woocommerce-breadcrumb {
+    font-weight: 100;
+}

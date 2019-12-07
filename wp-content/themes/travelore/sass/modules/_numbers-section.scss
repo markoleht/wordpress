@@ -1,0 +1,43 @@
+.numbers-content-wrapper .entry-title {
+    font-weight: 600;
+}
+
+.numbers-content-wrapper.section-content-wrapper .entry-summary,
+.numbers-content-wrapper.section-content-wrapper .entry-content {
+    margin: 0;
+}
+
+.numbers-content-wrapper .entry-container {
+    letter-spacing: 0;
+    line-height: 1.55555555556;
+    text-align: center;
+}
+
+.numbers-content-wrapper .entry-container {
+    margin-left: 0;
+    overflow: hidden;
+}
+
+.numbers-content-wrapper .hentry-inner .numbers-section-thumbnail.post-thumbnail {
+    margin: 14px auto;
+    margin-top: 0;
+}
+
+#numbers-section .numbers-content-wrapper {
+    padding: 0 30px;
+}
+
+.numbers-content-wrapper .hentry {
+    margin-bottom: 30px;
+}
+
+#numbers-section.no-section-heading {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+}
+
+.numbers-content-wrapper .hentry-inner {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,914 @@
+/* Background Color */
+body {
+	background: $background_color;
+	/* Fallback for when there is no custom background color defined. */
+}
+
+body.boxed-layout {
+	background: #e7e7e7;
+	/* Fallback for when there is no custom background color defined. */
+}
+
+#page {
+	background-color: transparent;
+}
+
+/* Page Background Color */
+.boxed-layout #page,
+.sidebar hr,
+.sidebar pre,
+.sidebar thead th,
+.sidebar table tr:nth-child(2n),
+.sidebar blockquote,
+#feature-slider-section .owl-prev,
+#feature-slider-section .owl-next,
+#header-highlights-section .owl-prev,
+#header-highlights-section .owl-next,
+#header-navigation-area,
+.ewnewsletter .ew-newsletter-wrap input:not([type=submit]) {
+	background-color: $page_background_color;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	background-color: $page_background_color;
+}
+
+/* Secondary Background Color */
+hr,
+pre,
+thead,
+blockquote,
+.author-info,
+.site .skip-link,
+.no-comments,
+.header-top-button-wrap,
+.pagination .page-numbers,
+#footer-newsletter .wrapper,
+.hero-content-wrapper .entry-container,
+#feature-slider-section .owl-dots button,
+#header-highlights-section .owl-dots button,
+#travelore-scrolling-section .owl-dots button,
+#testimonial-content-section .owl-dots button,
+#testimonial-content-section .owl-prev,
+#testimonial-content-section .owl-next,
+.footer-newsletter .ew-newsletter,
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content,
+.content-frame .entry-container-frame,
+.site-header-top-main,
+table tr:nth-child(2n),
+.wp-block-image figcaption,
+.ew-tabbed-recent-popular .ui-state-active,
+.ew-tabbed-recent-popular .ui-widget-content .ui-state-active,
+.ew-tabbed-recent-popular .ui-widget-header .ui-state-active,
+.ew-tabbed-recent-popular .ui-tabs .ui-tabs-panel,
+input[type=date], 
+input[type=time], 
+input[type=datetime-local], 
+input[type=week], 
+input[type=month], 
+input[type=text], 
+input[type=email], 
+input[type=url], 
+input[type=password], 
+input[type=search], 
+input[type=tel], 
+input[type=number], 
+textarea {
+    background-color: $secondary_background_color;
+}
+
+.sections-layout-3 .section-title:after,
+.ew-tabbed-recent-popular .ui-tabs .ui-tabs-nav li,
+.site-navigation a,
+.primary-menu-default .site-navigation ul ul a:hover {
+	border-color: #fff;
+}
+
+@media screen and (min-width: 64em) {
+	.site-navigation ul ul,
+	.site-navigation ul ul li,
+	.search-social-container,
+	.site-primary-menu,
+	.site-header-top-main {
+		background-color: $page_background_color;
+	}
+}
+
+/* Main Text Color */
+body,
+button,
+input,
+select,
+textarea,
+.site-navigation a {
+	color: $main_text_color;
+}
+
+/* 80% of Main Text Color */
+#news-ticker .owl-prev,
+#news-ticker .owl-next,
+#travelore-scrolling-section .owl-prev,
+#travelore-scrolling-section .owl-next,
+.author-description .author-heading,
+.post-navigation .nav-subtitle,
+.woocommerce div.product p.price,
+.woocommerce ul.products li.product .price,
+.widget_rss cite,
+.entry-caption,
+.wp-caption .wp-caption-text,
+.woocommerce .woocommerce-breadcrumb,
+.woocommerce .woocommerce-breadcrumb a,
+.comment-metadata,
+.pingback .edit-link,
+.comment-metadata a,
+.pingback .comment-edit-link,
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags,
+.entry-meta .icon,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+.singular-content-wrap .entry-footer .cat-links a,
+.singular-content-wrap .entry-footer .tags-links a,
+.tagcloud a {
+	color: $eighty_main_text_color;
+}
+
+.entry-breadcrumbs a:after,
+.woocommerce .woocommerce-breadcrumb a:after {
+	border-left-color: $eighty_main_text_color;
+}
+
+.singular-content-wrap .entry-footer .cat-links a,
+.singular-content-wrap .entry-footer .tags-links a,
+.tagcloud a {
+	border-color: $eighty_main_text_color;
+}
+
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color: $eighty_main_text_color;
+} 
+
+/* Button Text Color */
+#scrollup,
+.widget_calendar tbody a,
+.header-media .more-link .more-button,
+#feature-slider-section .more-link span,
+#promotion-section .more-link .more-button,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+#feature-slider-section .owl-dots button.active,
+.page-links a,
+.posts-navigation a,
+.site-main #infinite-handle span,
+.pagination .page-numbers.current,
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.woocommerce div.product form.cart .button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+#botw-section .more-button,
+#most-viewed-section .more-button,
+#header-highlights-section .section-content-wrapper .cat-links a,
+#header-highlights-section .section-content-wrapper .tags-links a,
+.section-content-wrapper .cat-links a,
+.section-content-wrapper .tags-links a,
+#travelore-top-reads-section .entry-container .cat-links a,
+#feature-slider-section .entry-meta .cat-links a,
+#news-ticker .news-ticker-label,
+#colophon .widget table tr a,
+.portfolio-content-wrapper .entry-meta,
+.portfolio-content-wrapper .entry-meta a {
+	color: $button_text_color;
+}
+
+/* Button Text Hover Color */
+mark,
+ins,
+#scrollup:hover,
+#scrollup:focus,
+.widget_calendar tbody a:hover,
+.widget_calendar tbody a:focus,
+.header-media .more-link .more-button:hover,
+.header-media .more-link .more-button:focus,
+#feature-slider-section .more-link span:hover,
+#feature-slider-section .more-link span:focus,
+#promotion-section .more-link .more-button:hover,
+#promotion-section .more-link .more-button:focus,
+#feature-slider-section .owl-dots button:hover,
+#feature-slider-section .owl-dots button:focus,
+#feature-slider-section .owl-prev:hover,
+#feature-slider-section .owl-prev:focus,
+#feature-slider-section .owl-next:hover,
+#feature-slider-section .owl-next:focus,
+#header-highlights-section .owl-prev:hover,
+#header-highlights-section .owl-prev:focus,
+#header-highlights-section .owl-next:hover,
+#header-highlights-section .owl-next:focus,
+#testimonial-content-section .owl-prev:hover,
+#testimonial-content-section .owl-prev:focus,
+#testimonial-content-section .owl-next:hover,
+#testimonial-content-section .owl-next:focus,
+#news-ticker .owl-prev:hover,
+#news-ticker .owl-prev:focus,
+#news-ticker .owl-next:hover,
+#news-ticker .owl-next:focus,
+#travelore-scrolling-section .owl-prev:hover,
+#travelore-scrolling-section .owl-prev:focus,
+#travelore-scrolling-section .owl-next:hover,
+#travelore-scrolling-section .owl-next:focus,
+.singular-content-wrap .entry-footer .cat-links a:hover,
+.singular-content-wrap .entry-footer .cat-links a:focus,
+.singular-content-wrap .entry-footer .tags-links a:hover,
+.singular-content-wrap .entry-footer .tags-links a:focus,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.page-links a:hover,
+.page-links a:focus,
+.pagination .page-numbers:hover,
+.pagination .page-numbers:focus,
+.pagination .page-numbers.current,
+.posts-navigation a:hover,
+.posts-navigation a:focus,
+.site-main #infinite-handle span:hover,
+.site-main #infinite-handle span:focus,
+button:hover,
+button:focus,
+button[disabled]:hover,
+button[disabled]:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.woocommerce #respond input#submit:hover,
+.woocommerce #respond input#submit:focus,
+.woocommerce a.button:hover,
+.woocommerce a.button:focus,
+.woocommerce button.button:hover,
+.woocommerce button.button:focus,
+.woocommerce input.button:hover,
+.woocommerce input.button:focus,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce #respond input#submit.alt:focus,
+.woocommerce a.button.alt:focus,
+.woocommerce button.button.alt:focus,
+.woocommerce input.button.alt:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+#promotion-section.content-color-white .section-title,
+#promotion-section.content-color-white .entry-summary p,
+#promotion-section.content-color-white .entry-content,
+#promotion-section.content-color-white .entry-content a,
+#botw-section .more-button:hover,
+#botw-section .more-button:focus,
+#most-viewed-section .more-button:hover,
+#most-viewed-section .more-button:focus,
+.entry-breadcrumbs,
+.entry-breadcrumbs a,
+#colophon .widget table tr a:hover,
+#colophon .widget table tr a:focus {
+	color: $button_text_hover_color;
+}
+
+
+/* Button Background Color */
+#scrollup,
+.widget_calendar tbody a,
+.header-media .more-button,
+.custom-header-media .wp-custom-header-video-button,
+#feature-slider-section .more-link span,
+#feature-slider-section .owl-dots button:hover,
+#feature-slider-section .owl-dots button:focus,
+#feature-slider-section .owl-dots button.active,
+#header-highlights-section .owl-dots button:hover,
+#header-highlights-section .owl-dots button:focus,
+#header-highlights-section .owl-dots button.active,
+#feature-slider-section .owl-prev:hover,
+#feature-slider-section .owl-prev:focus,
+#feature-slider-section .owl-next:hover,
+#feature-slider-section .owl-next:focus,
+#header-highlights-section .owl-prev:hover,
+#header-highlights-section .owl-prev:focus,
+#header-highlights-section .owl-next:hover,
+#header-highlights-section .owl-next:focus,
+#testimonial-content-section .owl-prev:hover,
+#testimonial-content-section .owl-prev:focus,
+#testimonial-content-section .owl-next:hover,
+#testimonial-content-section .owl-next:focus,
+#news-ticker .owl-prev:hover,
+#news-ticker .owl-prev:focus,
+#news-ticker .owl-next:hover,
+#news-ticker .owl-next:focus,
+#travelore-scrolling-section .owl-prev:hover,
+#travelore-scrolling-section .owl-prev:focus,
+#travelore-scrolling-section .owl-next:hover,
+#travelore-scrolling-section .owl-next:focus,
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.woocommerce div.product form.cart .button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.sticky-post,
+.page-links a,
+.site-main #infinite-handle span,
+.posts-navigation a,
+.pagination .page-numbers:hover,
+.pagination .page-numbers:focus,
+.pagination .page-numbers.current,
+#promotion-section .more-link .more-button,
+.woocommerce span.onsale,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+.section-content-wrapper .cat-links a,
+.section-content-wrapper .tags-links a,
+.author-link,
+#botw-section .more-button,
+#most-viewed-section .more-button,
+#news-ticker .news-ticker-label {
+	background-color: $button_background_color;
+}
+
+#news-ticker .owl-prev:hover,
+#news-ticker .owl-prev:focus,
+#news-ticker .owl-next:hover,
+#news-ticker .owl-next:focus,
+#travelore-scrolling-section .owl-prev:hover,
+#travelore-scrolling-section .owl-prev:focus,
+#travelore-scrolling-section .owl-next:hover,
+#travelore-scrolling-section .owl-next:focus,
+.primary-menu-default .site-navigation a:hover,
+.primary-menu-default .site-navigation a:focus,
+.more-button {
+	border-color: $button_background_color;
+}
+
+.primary-menu-clean .site-navigation .primary-menu li.home-icon a,
+#botw-section .section-title, 
+#most-viewed-section .section-title {
+	color: $button_background_color;
+}
+
+/* Button Hover Background Color */
+mark,
+ins,
+#scrollup:hover,
+#scrollup:focus,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.widget_calendar tbody a:hover,
+.widget_calendar tbody a:focus,
+.header-media .more-link .more-button:hover,
+.header-media .more-link .more-button:focus,
+#feature-slider-section .more-link span:hover,
+#feature-slider-section .more-link span:hover,
+.custom-header-media .wp-custom-header-video-button.wp-custom-header-video-pause,
+.custom-header-media .wp-custom-header-video-button:hover,
+.custom-header-media .wp-custom-header-video-button:focus,
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.woocommerce div.product form.cart .button:hover,
+.woocommerce div.product form.cart .button:focus,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:focus,
+.woocommerce a.button:focus,
+.woocommerce button.button:focus,
+.woocommerce input.button:focus,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce #respond input#submit.alt:focus,
+.woocommerce a.button.alt:focus,
+.woocommerce button.button.alt:focus,
+.woocommerce input.button.alt:focus,
+.page-links a:hover,
+.page-links a:focus,
+.site-main #infinite-handle span:hover,
+.site-main #infinite-handle span:focus,
+.posts-navigation a:hover,
+.posts-navigation a:focus,
+#promotion-section .more-link .more-button:hover,
+#promotion-section .more-link .more-button:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.catch-instagram-feed-gallery-widget-wrapper .instagram-button .button:hover,
+.catch-instagram-feed-gallery-widget-wrapper .instagram-button .button:focus,
+.singular-content-wrap .entry-footer .cat-links a:hover,
+.singular-content-wrap .entry-footer .cat-links a:focus,
+.singular-content-wrap .entry-footer .tags-links a:hover,
+.singular-content-wrap .entry-footer .tags-links a:focus,
+.section-content-wrapper .cat-links a:hover,
+.section-content-wrapper .cat-links a:focus,
+.section-content-wrapper .tags-links a:hover,
+.section-content-wrapper .tags-links a:focus,
+.author-link:hover,
+.author-link:focus,
+#botw-section .more-button:hover,
+#botw-section .more-button:focus,
+#most-viewed-section .more-button:hover,
+#most-viewed-section .more-button:focus {
+	background-color: $button_hover_background_color;
+}
+
+.singular-content-wrap .entry-footer .cat-links a:hover,
+.singular-content-wrap .entry-footer .cat-links a:focus,
+.singular-content-wrap .entry-footer .tags-links a:hover,
+.singular-content-wrap .entry-footer .tags-links a:focus,
+.header-media .more-link .more-button:hover,
+.header-media .more-link .more-button:focus {
+	border-color: $tertiary_background_color;
+}
+
+.section-title:after,
+.widget .widget-title:after {
+    border-bottom-color: $button_hover_background_color;
+}
+
+/* Link Color */
+a,
+.menu-toggle,
+.dropdown-toggle,
+#search-toggle-top,
+#search-toggle,
+#site-top-navigation.site-navigation a,
+.header-top-bar .contact-details,
+.header-top-bar .contact-details a,
+.news-ticker-title,
+.news-ticker-title a,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+.comment-metadata .comment-reply-link,
+#feature-slider-section .owl-prev,
+#feature-slider-section .owl-next,
+#header-highlights-section .owl-prev,
+#header-highlights-section .owl-next,
+#testimonial-content-section .owl-prev,
+#testimonial-content-section .owl-next {
+	color: $link_color;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+.ew-tabbed-recent-popular .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	border-color: $link_color;
+}
+
+.ew-tabbed-recent-popular .ui-state-active a,
+.ew-tabbed-recent-popular .ui-state-active a:link,
+.ew-tabbed-recent-popular .ui-state-active a:visited {
+	color: $link_color;
+}
+
+@media screen and (min-width: 64em) {
+	body:not(.primary-menu-clean) .site-navigation .primary-menu ul a,
+	body:not(.primary-menu-clean) .site-navigation .primary-menu ul a {
+		color: $link_color;
+	}
+}
+
+/* Link Hover Color */
+a:hover,
+a:focus,
+a:active,
+.menu-toggle:hover,
+.menu-toggle:focus,
+.menu-toggle.toggled-on,
+.menu-toggle.toggled-on:hover,
+.menu-toggle.toggled-on:focus,
+body:not(.primary-menu-clean) #header-navigation-area .menu-toggle:hover,
+body:not(.primary-menu-clean) #header-navigation-area .menu-toggle:focus,
+#search-toggle-top:hover,
+#search-toggle:hover,
+#search-toggle-top:focus,
+#search-toggle:focus,
+.dropdown-toggle:hover,
+.dropdown-toggle:focus,
+.site-navigation a:hover,
+.site-navigation a:focus,
+#site-top-navigation.site-navigation a:hover,
+#site-top-navigation.site-navigation a:focus,
+.header-top-bar .contact-details a:hover,
+.header-top-bar .contact-details a:focus,
+.required,
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-meta a:hover,
+.entry-meta a:focus,
+.entry-meta .icon:hover,
+.entry-meta .icon:focus,
+.news-ticker-label,
+.news-ticker-title a:hover,
+.news-ticker-title a:focus,
+.site-info a:hover,
+.site-info a:focus,
+.comment-metadata a:hover,
+.comment-metadata a:focus,
+.pingback .comment-edit-link:hover,
+.pingback .comment-edit-link:focus,
+.post-navigation a:hover .nav-title,
+.post-navigation a:focus .nav-title,
+#feature-slider-section .entry-meta a:hover,
+#feature-slider-section .entry-meta a:focus,
+#feature-slider-section .entry-title a:hover,
+#feature-slider-section .entry-title a:focus,
+#feature-slider-section .entry-meta a:hover,
+#feature-slider-section .entry-meta a:focus,
+#feature-slider-section .entry-meta .icon:hover,
+#feature-slider-section .entry-meta .icon:focus,
+#header-highlights-section .entry-container a:hover,
+#header-highlights-section .entry-container a:focus,
+#travelore-top-reads-section .entry-container a:hover,
+#travelore-top-reads-section .entry-container a:focus,
+.site .skip-link,
+.woocommerce div.product p.price:hover,
+.woocommerce div.product p.price:focus,
+.woocommerce ul.products li.product .price:hover,
+.woocommerce ul.products li.product .price:focus,
+.entry-breadcrumbs a:hover,
+.entry-breadcrumbs a:focus,
+.woocommerce .woocommerce-breadcrumb a:hover,
+.woocommerce .woocommerce-breadcrumb a:focus,
+.comment-metadata .comment-reply-link:hover,
+.comment-metadata .comment-reply-link:focus,
+.portfolio-content-wrapper .entry-title a:hover,
+.portfolio-content-wrapper .entry-title a:focus,
+.portfolio-content-wrapper.section-content-wrapper .cat-links a:hover,
+.portfolio-content-wrapper.section-content-wrapper .cat-links a:focus,
+.portfolio-content-wrapper.section-content-wrapper .tags-links a:hover,
+.portfolio-content-wrapper.section-content-wrapper .tags-links a:focus,
+#team-content-section .artist-social-profile >.social-navigation a:hover,
+#team-content-section .artist-social-profile >.social-navigation a:focus,
+.tabs .tabs-nav li a:hover,
+.tabs .tabs-nav li a:focus,
+.tabs .tabs-nav li.state-active a,
+.post-navigation a i.fal:hover,
+.post-navigation a i.fal:focus,
+#most-viewed-section .section-title:hover,
+#most-viewed-section .section-title:focus,
+#botw-section .section-title:hover,
+#botw-section .section-title:focus,
+div#botw-section .entry-title a:hover,
+div#botw-section .entry-title a:focus,
+div#botw-section a:hover,
+div#botw-section a:focus,
+div#botw-section .entry-title a:hover,
+div#botw-section .entry-title a:focus, 
+div#botw-section .entry-meta a:hover,
+div#botw-section .entry-meta a:focus,
+div#most-viewed-section a:hover,
+div#most-viewed-section a:focus,
+div#most-viewed-section .entry-title a:hover,
+div#most-viewed-section .entry-title a:focus, 
+div#most-viewed-section .entry-meta a:hover,
+div#most-viewed-section .entry-meta a:focus,
+#colophon .widget a:hover,
+#colophon .widget a:focus,
+body:not(.primary-menu-clean) .site-navigation .primary-menu ul a:hover,
+body:not(.primary-menu-clean) .site-navigation .primary-menu ul a:focus,
+ #site-generator .site-footer-menu a:hover,
+ #site-generator .site-footer-menu a:focus {
+	color: $link_hover_color;
+}
+
+#testimonial-content-section .owl-dots button.active,
+#travelore-scrolling-section .owl-dots button.active {
+	background-color: $link_hover_color;
+}
+
+#team-content-section .entry-header:before,
+#testimonial-content-section .entry-header:before,
+.menu-toggle:hover,
+.menu-toggle:focus,
+#colophon .ew-tabbed-recent-popular .ui-tabs .ui-tabs-nav li.ui-tabs-active,
+.site-navigation .current-menu-item > a, 
+.site-navigation .current-menu-ancestor > a,
+#colophon .ew-tabbed-recent-popular .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	border-color: $link_hover_color;
+}
+
+#news-ticker .news-ticker-label:before {
+	border-left-color: $link_hover_color;
+}
+
+#news-ticker .news-ticker-label:after {
+	border-top-color: $link_hover_color;
+}
+
+/* Heading Text Color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.entry-title a,
+.widget-title a,
+.page-links > .page-links-title {
+	color: $header_text_color;
+}
+
+/* Tertiary Background Color */
+#feature-slider-section .hentry-inner,
+#colophon hr,
+#colophon pre,
+#colophon thead th,
+#colophon blockquote,
+#colophon .ew-tabbed-recent-popular .ui-state-active,
+#colophon .ew-tabbed-recent-popular .ui-widget-content .ui-state-active,
+#colophon .ew-tabbed-recent-popular .ui-widget-header .ui-state-active,
+#colophon .ew-tabbed-recent-popular .ui-tabs .ui-tabs-panel {
+	background-color: $tertiary_background_color;
+}
+
+/* 90% Tertiary Background Color */
+#colophon,
+#colophon .ew-tabbed-recent-popular .ui-state-default,
+#colophon .ew-tabbed-recent-popular .ui-widget-content .ui-state-default,
+#colophon .ew-tabbed-recent-popular .ui-widget-header .ui-state-default {
+	background-color: rgba(0,0,0,0.9);
+}
+
+/* Text color with background */
+#feature-slider-section .entry-meta,
+#feature-slider-section .entry-meta a,
+#feature-slider-section .entry-title,
+#feature-slider-section .entry-title a,
+#feature-slider-section .entry-summary,
+#feature-slider-section .entry-content,
+#header-highlights-section .entry-title,
+#header-highlights-section .entry-title a,
+#header-highlights-section .entry-container,
+#header-highlights-section .entry-container a,
+#travelore-top-reads-section .entry-container,
+#travelore-top-reads-section .entry-container a,
+.portfolio-content-wrapper .entry-meta .icon,
+.portfolio-content-wrapper .entry-container,
+#promotion-section.content-color-white .entry-container,
+#promotion-section.content-color-white .entry-container a,
+.custom-header-content .entry-title,
+.custom-header-content .site-header-text,
+.custom-header-content .site-header-text a,
+.custom-header-media .wp-custom-header-video-button,
+.custom-header-media .wp-custom-header-video-button.wp-custom-header-video-pause,
+.custom-header-media .wp-custom-header-video-button:hover,
+.custom-header-media .wp-custom-header-video-button:focus,
+#header-highlights-section .section-content-wrapper .cat-links a:hover,
+#header-highlights-section .section-content-wrapper .cat-links a:focus,
+#header-highlights-section .section-content-wrapper .tags-links a:hover,
+#header-highlights-section .section-content-wrapper .tags-links a:focus,
+.section-content-wrapper .cat-links a:hover,
+.section-content-wrapper .cat-links a:focus,
+.section-content-wrapper .tags-links a:hover,
+.section-content-wrapper .tags-links a:focus,
+.footer-widget-area.widget-area .widget-title,
+#botw-section, 
+div#botw-section .entry-title a,
+div#botw-section a,
+#most-viewed-section, 
+div#most-viewed-section .entry-title a, 
+div#most-viewed-section a,
+.has-background-image .widget.ewnewsletter .widget-title {
+	color: $textcolor_with_background;
+}
+
+/* Border Color and Slider Controller Color */
+table,
+caption,
+tr,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+.header-top-bar,
+.site-footer-menu,
+.site-navigation li,
+.site-navigation ul.toggled-on,
+.header-top-bar .contact-details li,
+.menu-social-container,
+.breadcrumb-area:after,
+.page-links a,
+.page-links > span,
+.comment-list article,
+.comment-list .pingback,
+.comment-list .trackback,
+.post-navigation,
+.image-navigation,
+.comment-navigation,
+.widget .hentry,
+.primary-menu-clean #header-navigation-area,
+#news-ticker .owl-prev,
+#news-ticker .owl-next,
+#travelore-scrolling-section .owl-prev,
+#travelore-scrolling-section .owl-next,
+.archive-posts-wrapper .post-wrapper,
+#testimonial-content-section .entry-content,
+.travelore-section .hentry.excerpt-image-left .hentry-inner,
+.travelore-section .hentry.excerpt-image-right .hentry-inner,
+.travelore-section:not(.travelore-two-columns-section) .featured .entry-container,
+#header-content,
+.comment-meta,
+.post-navigation .nav-previous a,
+.post-navigation .nav-next a,
+.section-title-wrapper,
+.widget .widget-title-wrap,
+#colophon .widget .widget-title:after,
+.footer-widget-area.widget-area .widget-title,
+#header-navigation-area,
+.site-primary-menu {
+	border-color: $border_color;
+}
+
+@media screen and (min-width: 64em) {
+	.primary-search-wrapper .social-navigation,
+	.secondary-search-wrapper .social-navigation,
+	.header-top-bar .contact-details li.date {
+		border-color: $border_color;
+	}
+}
+
+.post-navigation a i.fal{
+	color: $border_color;
+}
+
+/* Teritary Text Color */
+.site-footer,
+#site-generator .social-navigation a,
+#site-generator .site-footer-menu a,
+#colophon .widget a,
+#colophon .widget .social-navigation a:hover,
+#colophon .widget .social-navigation a:focus,
+#colophon .widget .ctsocialwidget a:hover,
+#colophon .widget .ctsocialwidget a:focus,
+#site-generator a:hover,
+#site-generator a:focus,
+#site-generator .menu-toggle:hover,
+#site-generator .menu-toggle:focus {
+	color: #a0a0a0;
+}
+
+/* 60% of Teritary Text Color */
+.site-info,
+.site-info a,
+#colophon .entry-meta,
+#colophon .entry-meta a,
+.footer-widget-area .widget_rss .rss-date,
+.footer-widget-area .widget_rss cite,
+.footer-widget-area.widget-area .widget_recent_entries .post-date,
+#site-generator .menu-toggle {
+	color: $teritary_text-color;
+}
+
+#colophon table tr {
+	background-color: #191919;
+}
+
+#colophon .widget .hentry,
+.site-footer-menu .site-navigation li,
+.site-footer-menu .menu-social-container,
+#colophon .ew-tabbed-recent-popular .ui-tabs .ui-tabs-nav li {
+	border-color: $teritary_text-color;
+}
+
+#colophon .widget .social-navigation a,
+#colophon .widget .ctsocialwidget a {
+	color: $eighty_main_text_color;
+}
+
+.footer-widget-area.widget-area table,
+.footer-widget-area.widget-area caption,
+.footer-widget-area.widget-area th,
+.footer-widget-area.widget-area tr,
+.footer-widget-area.widget-area td {
+	border-color: $main_text_color;
+}
+
+#travelore-two-columns-section .second-half-section .section-title {
+    border-bottom-color: #a6a6a6;
+}
+
+#colophon .widget .widget-title-wrap {
+	border-color: #272727;
+}
+
+#botw-section .entry-meta > span,
+div#botw-section .entry-meta a,
+#most-viewed-section .entry-meta > span,
+div#most-viewed-section .entry-meta a {
+	color: #b8b7b4;
+}
+
+.botw-wrapper .hentry, 
+.most-viewed-wrapper .hentry {
+	    border-color: rgb(255, 255, 255, 0.2);
+}
+
+#travelore-video-section .section-title {
+    border-bottom-color: $tertiary_background_color;
+}
+
+ul li::before {
+	color: #f7c32e;  
+}

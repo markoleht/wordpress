@@ -1,0 +1,87 @@
+.posts-navigation {
+	clear: both;
+	text-align: center;
+}
+
+.pagination,
+.woocommerce-pagination {
+	clear: both;
+	font-size: 13px;
+	font-size: 0.8125rem;
+}
+
+.posts-navigation a,
+.site-main #infinite-handle span,
+.header-media .more-link .more-button,
+#feature-slider-section .more-link span,
+#promotion-section .more-link .more-button,
+#botw-section .more-button,
+#most-viewed-section .more-button {
+	border: none;
+	-webkit-border-radius: 24px;
+	border-radius: 24px;
+	display: inline-block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-weight: 600;
+	padding: 14px 35px;
+	line-height: 1.615384615384615;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition:	all 0.2s ease-in-out;
+} 
+
+.pagination .page-numbers {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	display: inline-block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-weight: 400;
+	padding: 5px 13px;
+	line-height: 1.538461538461538;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.infinite-loader {
+	clear: both;
+	padding: 0 0 35px;
+}
+
+#ctis-loading img {
+	width: 35px;
+}
+
+.site-main #infinite-handle {
+	clear: both;
+	text-align: center;
+}
+
+.infinite-scroll .woocommerce-pagination {
+	display: none;
+}
+
+.post-navigation a i.fal {
+	font-family: "FontAwesome";
+	font-style: normal;
+	font-size: 30px;
+}
+
+.post-navigation a i.fa-angle-left {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.post-navigation a i.fa-angle-right {
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+.tags-links-label {
+	display: none;
+}

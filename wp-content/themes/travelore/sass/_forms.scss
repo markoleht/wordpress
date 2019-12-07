@@ -1,0 +1,145 @@
+input {
+	line-height: normal;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.woocommerce div.product form.cart .button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.author-link {
+	-webkit-border-radius: 24px;
+	border-radius: 24px;
+	border: none;
+	display: inline-block;
+	font-weight: 600;
+	line-height: 1.615384615384615;
+	letter-spacing: 0.1em;
+	padding: 14px 35px;
+	text-decoration: none;
+	text-transform: uppercase;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition:	all 0.2s ease-in-out;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	border: 1px solid;
+	border-radius: 8px;
+	font-size: 14px;
+	font-size: 0.875rem;
+	margin-top: 7px;
+	width: 100%;
+}
+  
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+	outline: 0;
+}
+
+.post-password-form {
+	margin-bottom: 28px;
+}
+
+.post-password-form label {
+	display: block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-weight: 600;
+	margin-bottom: 28px;
+	text-transform: uppercase;
+}
+
+.post-password-form input[type="password"] {
+	margin-top: 7px;
+}
+
+.post-password-form > :last-child {
+	margin-bottom: 0;
+}
+
+.search-form {
+	position: relative;
+}
+
+input[type="search"].search-field {
+	-webkit-appearance: none;
+	margin: 0;
+	padding-right: 42px;
+	width: 100%;
+}
+
+.site-header input[type="search"].search-field {
+	font-style: italic;
+}
+
+.transparent-site-header .site-header input[type="search"].search-field {
+	background-color: transparent;
+}
+
+.search-submit {
+	border: none;
+	border-radius: 0;
+	bottom: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 42px;
+}
+
+.form-submit {
+	text-align: right;
+}
+
+.ewnewsletter .ew-newsletter-wrap input[type="email"] {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	margin: 20px 0;
+}
+
+.ewnewsletter .ew-newsletter-wrap input[type="submit"],
+.search-submit {
+	border-radius: 8px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	font-family: "FontAwesome";
+
+}

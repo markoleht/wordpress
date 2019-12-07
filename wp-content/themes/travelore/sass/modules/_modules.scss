@@ -1,0 +1,173 @@
+.section {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+
+.section-heading-wrapper {
+	max-width: 1560px;
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+
+.sections-layout-2 .section-heading-wrapper {
+	text-align: center;
+}
+
+.section-title-wrapper {
+	border-bottom: 1px solid;
+}
+
+.section-title {
+	margin: 0;
+	position: relative;
+	text-transform: uppercase;
+	width: max-content;
+}
+
+.section-title:after {
+	content: '';
+	display: block;
+	border-bottom: 1px solid;
+	margin-bottom: -1px;
+	padding-bottom: 14px;
+}
+
+.section-title.news-ticker-label:after{
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+#most-viewed-section .section-title:after,
+#botw-section .section-title:after {
+	border-bottom: none;
+}
+
+.sections-layout-3 .section-title:after {
+	border-bottom: 2px solid;
+	bottom: -2px;
+	content: "";
+	height: 2px;
+	position: absolute;
+	right: 0;
+	width: calc(100% - 5em);
+	z-index: 1;
+}
+
+.sections-layout-3 #news-ticker .section-title:after {
+	content: none;
+}
+
+.sections-layout-2 .section-title {
+	border: none;
+	padding-bottom: 0;
+}
+
+#hero-section .section-title,
+#promotion-section .section-title,
+#promotion-section .section-title-wrapper,
+#news-ticker .section-title {
+	border: none;
+	padding: 0;
+}
+
+.featured-content-wrapper .entry-title,
+.portfolio-content-wrapper .entry-title,
+.service-content-wrapper .entry-title,
+.team-content-wrapper .entry-title {
+	font-weight: 600;
+	line-height: 1.555555555555556;
+}
+
+.hentry {
+    margin-bottom: 30px;
+}
+
+.section-content-wrapper .cat-links a,
+.section-content-wrapper .tags-links a {
+	color: #fff;
+	display: inline-block;
+	font-weight: 400;
+	font-size: 11px;
+	letter-spacing: 0;
+	line-height: 1.5;
+    margin: 0;
+	margin-right: 7px;
+	margin-top: 10px;
+	padding: 3px 7px;
+	text-transform: uppercase;
+}
+
+.portfolio-content-wrapper.section-content-wrapper .cat-links a {
+	margin: 0;
+}
+
+/**
+ * 14.1 - Slider
+ */
+
+@import "slider";
+
+/**
+* 14.2 - Featured Content & Portfolio
+*/
+
+@import "featured-content-and-portfolio";
+
+/**
+* 14.3 - Hero Content
+*/
+
+@import "hero-content";
+
+/**
+* 14.4 - Testimonials
+*/
+
+@import "testimonials";
+
+/**
+* 14.5 - Promotional Headline
+*/
+
+@import "promotional-headline";
+
+/**
+* 14.6 - Others
+*/
+
+@import "others";
+
+/**
+* 14.7 - Team Content Section
+*/
+
+@import "team-content-section";
+
+/**
+* 14.8 - Numbers Section
+*/
+
+@import "numbers-section";
+
+/**
+* 14.9 - News Ticker
+*/
+
+@import "news-ticker";
+
+/**
+* 14.10 - Header Highlights Section
+*/
+
+@import "header-highlights-section";
+
+/**
+* 14.11 - Travelore Section
+*/
+
+@import "travelore-section";

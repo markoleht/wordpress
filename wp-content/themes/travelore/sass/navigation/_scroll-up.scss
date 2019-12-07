@@ -1,0 +1,29 @@
+#scrollup {
+	border: none;
+	cursor: pointer;
+	display: none;
+	outline: none;
+	padding: 7px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	z-index: 9999;
+}
+
+#scrollup:hover,
+#scrollup:focus {
+	text-decoration: none;
+}
+
+#scrollup .icon {
+	font-size: 28px;
+	font-size: 1.75rem;
+	width: 26px;
+	top: 0;
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}

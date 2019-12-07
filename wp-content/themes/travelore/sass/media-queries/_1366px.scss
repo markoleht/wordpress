@@ -1,0 +1,17 @@
+@media screen and (min-width: 85.375em) {
+	#hero-section .entry-container {
+		padding: 94px 50px;
+	}
+	
+	.site-footer .footer-widget-area {
+		padding: 49px 0 21px;
+	}
+
+	.home #header-navigation-area + .section {
+	    margin-top: 77px;
+	}
+
+	.home #header-navigation-area + #news-ticker, .home #header-navigation-area + .header-media {
+	    margin-top: 0;
+	}
+}
